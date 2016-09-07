@@ -1,0 +1,49 @@
+.windows {
+    height:100vh;
+}
+h2 {
+    color: rebeccapurple;
+    font: 40px Georgia bold;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+body {
+    background: url("dog-face-car.jpg");
+    background-size: cover;
+    background-position: 60% 60%;
+
+         /*height:100vh;
+*/}
+
+.hatgif {
+    /*    position: center;
+    border: 3px solid black;
+    width: 150px;
+    height: 270px;*/
+    /*    display: flex;
+    align-items: center;*/
+    justify-content: center;
+}
+
+.gif {
+    /*    border: 3px solid black;
+    width: 480px;
+    height: 270px;*/
+/*    border-radius: 25px;*/
+    /*    display: flex;
+    align-items: center;*/
+}
+
+img {}
+
+.navbar {
+    border: 1px solid black;
+    padding: 25px 25px 25px 25px;
+    object-position: middle;
+    text-align: center;
+}
+
+h5 span{
+    background-color: white;
+}
