@@ -10,7 +10,7 @@ function searchNow(event) {
     var searchBar = $("input").val()
 
     $.ajax({
-        url: "https://www.rijksmuseum.nl/en/search?rembrandt-harmensz" + searchBar + "/username/jondubya/password/LTW497kvwQ",
+        url: "http://www.markerapi.com/api/v1/trademark/search/" + searchBar + "/username/jondubya/password/LTW497kvwQ",
         success: appendList
     })
 }
